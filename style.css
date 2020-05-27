@@ -1,0 +1,76 @@
+body {
+	font: 'Roboto';
+    color: rgba(0,0,0,.5);
+    top: 15%;
+    background: linear-gradient(to right, red , yellow); /* Standard syntax */
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font: 100 1.1em 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+.container {
+    width: 25vw;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+ 
+h1 {
+    font: 200 1.1em 'Roboto', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+.code {
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: transparent;
+}
+
+
+input, select {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: auto;
+    box-sizing: border-box;
+  }
+ 
+
+
+button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+}
+
+image { 
+    width: 20%;
+    align-self: center;
+}
+

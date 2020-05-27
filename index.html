@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Background Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">	
+</head>
+<body id="gradient">
+	<div class="container">
+		<h1>Gradient Background Generator</h1>
+		<label for="direction">Direction</label>
+		<select id="direction" class="direction">
+			<option value="top">Top</option value="">
+			<option value="right">Right</option value="">
+			<option value="bottom">Bottom</option value="">
+			<option value="left">Left</option value="">
+		</select>
+		
+		<div>
+			<label for="color1">Color 1</label>
+			 <input class="color1" type="color" name="color1" value="#00ff00">
+			 <code class="c1-code"></code>
+		</div>
+
+		<div>
+			<label for="color2">Color 2</label>
+			<input class="color2" type="color" name="color2" value="#ff0000">
+			<code class="c2-code"></code>
+		</div>
+	
+		<label for="code">CSS Code</label>
+		<input type="text" class="code" id="code">
+		<button type="submit"><img src="icons/copy-material.png" height="15"> Copy</button>		
+	</div>
+	
+ 
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
