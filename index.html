@@ -2,38 +2,42 @@
 <html>
 <head>
 	<title>Gradient Background Generator</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">	
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	<link rel="icon" href="https://image.flaticon.com/icons/svg/732/732190.svg">
 </head>
 <body id="gradient">
 	<div class="container">
 		<h1>Gradient Background Generator</h1>
 		<label for="direction">Direction</label>
 		<select id="direction" class="direction">
-			<option value="top">Top</option value="">
 			<option value="right">Right</option value="">
-			<option value="bottom">Bottom</option value="">
 			<option value="left">Left</option value="">
 		</select>
 		
 		<div>
 			<label for="color1">Color 1</label>
-			 <input class="color1" type="color" name="color1" value="#00ff00">
+			 <input class="color1" type="color" name="color1" value="#0F2027">
 			 <code class="c1-code"></code>
 		</div>
 
 		<div>
 			<label for="color2">Color 2</label>
-			<input class="color2" type="color" name="color2" value="#ff0000">
+			<input class="color2" type="color" name="color2" value="#203A43">
 			<code class="c2-code"></code>
+		</div>
+
+		<div>
+			<label for="color3">Color 3</label>
+			<input class="color3" type="color" name="color3" value="#2C5364">
+			<code class="c3-code"></code>
 		</div>
 	
 		<label for="code">CSS Code</label>
-		<input type="text" class="code" id="code">
+		<input type="text" class="code" id="code" value="linear-gradient(to right, rgb(132, 250, 181), rgb(42, 234, 226), rgb(143, 211, 244));">
 		<button type="submit"><img src="icons/copy-material.png" height="15"> Copy</button>		
 	</div>
 	
  
-	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="bundle.js"></script>
 </body>
 </html>

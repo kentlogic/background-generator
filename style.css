@@ -2,7 +2,7 @@ body {
 	font: 'Roboto';
     color: rgba(0,0,0,.5);
     top: 15%;
-    background: linear-gradient(to right, red , yellow); /* Standard syntax */
+    background: linear-gradient(to right, rgb(132, 250, 181), rgb(42, 234, 226), rgb(143, 211, 244)); /* Standard syntax */
     display: flex;
     justify-content: center;
 }
